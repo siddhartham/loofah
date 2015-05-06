@@ -54,7 +54,7 @@ module Loofah
       legend li map mark menu meter nav ol output optgroup option p
       pre q s samp section select small span strike strong sub summary
       sup table tbody td textarea tfoot th thead time tr tt u ul var
-      video]
+      video iframe]
 
       MATHML_ELEMENTS = Set.new %w[annotation annotation-xml maction math merror mfrac
       mfenced mi mmultiscripts mn mo mover mpadded mphantom mprescripts mroot mrow
@@ -129,7 +129,7 @@ module Loofah
       pause pause-after pause-before pitch pitch-range richness speak
       speak-header speak-numeral speak-punctuation speech-rate stress
       text-align text-decoration text-indent unicode-bidi vertical-align
-      voice-family volume white-space width]
+      voice-family volume white-space width list-style-type]
 
       ACCEPTABLE_CSS_KEYWORDS = Set.new %w[auto aqua black block blue bold both bottom
       brown center collapse dashed dotted fuchsia gray green !important
